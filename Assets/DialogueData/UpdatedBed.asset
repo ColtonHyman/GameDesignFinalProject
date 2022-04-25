@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e721862c4b634899a7bff69cc6b075c, type: 3}
+  m_Name: UpdatedBed
+  m_EditorClassIdentifier: 
+  dialogue:
+  - This is my bed. There is a deep divet in the shape of my sleeping body. It makes
+    it really uncomfortable at night.
+  - Granted, sleep doesn't come to me easily anyway. Even if I had the motivation
+    to buy a new mattress...
+  - I doubt it would do me any good. Still, for all that I complain about it, it's
+    still my favorite place to be.
+  - I certainly like it more than the outside world, at least.
+  responses:
+  - responseText: Nap
+    dialogueObject: {fileID: 11400000, guid: 744f20ec4af4944b78e29ff99ce2ca1d, type: 2}
+  - responseText: Look Below
+    dialogueObject: {fileID: 11400000, guid: 15d8401e0dda949f6b8731f9ec26b36a, type: 2}

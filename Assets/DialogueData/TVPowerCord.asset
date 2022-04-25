@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e721862c4b634899a7bff69cc6b075c, type: 3}
+  m_Name: TVPowerCord
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Oh right, I found the power cord. Guess I should plug it back in.
+  - ...Oh. I guess the TV was broken to begin with. That explains why I removed the
+    power cord.
+  - ...Maybe I should read a book instead. I'm thinking... "Freeloader's Manual to
+    the Multiverse?"
+  responses:
+  - responseText: Sure
+    dialogueObject: {fileID: 11400000, guid: c7bfcbc302d414cce9676bf41327347d, type: 2}
+  - responseText: Nah
+    dialogueObject: {fileID: 11400000, guid: 2c55531f2156949ed91628d11eb699c2, type: 2}

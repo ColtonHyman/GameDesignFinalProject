@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e721862c4b634899a7bff69cc6b075c, type: 3}
+  m_Name: Corner
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Oh gosh, it's gross back here. There are WAY too many cobwebs.
+  - Oh hey, a spider. 'Sup, dude? How's it hanging?
+  responses:
+  - responseText: Inspect
+    dialogueObject: {fileID: 11400000, guid: caa593cd4340444d9ac25dc997bea6ad, type: 2}
+  - responseText: Back Away
+    dialogueObject: {fileID: 11400000, guid: 1a5a3be862ce74ee28e4379db1112352, type: 2}

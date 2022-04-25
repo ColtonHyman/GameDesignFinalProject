@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e721862c4b634899a7bff69cc6b075c, type: 3}
+  m_Name: UpdatedDoor
+  m_EditorClassIdentifier: 
+  dialogue:
+  - I don't want to do this.
+  - I really don't want to do this.
+  - ...I have to do this. I know I don't want to. But I have to.
+  - I can't keep living like this. Wallowing in pity, watching my life pass by me...
+  - Losing motivation to do anything. To fix my things. To clean. To do the things
+    I used to love.
+  - ...This isn't something that I will be able to fix right away. In fact, it will
+    probably take years.
+  - But I can't expect my life to change if I don't take the first step.
+  - ...So.
+  responses:
+  - responseText: Leave
+    dialogueObject: {fileID: 11400000, guid: daeff43f35ff04c2f8b1acf7f7141d21, type: 2}
+  - responseText: Stay
+    dialogueObject: {fileID: 11400000, guid: 694185c872a9a458d8cb49ce886d96ce, type: 2}
